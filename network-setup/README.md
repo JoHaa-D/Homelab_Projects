@@ -6,9 +6,10 @@ This document provides an overview of the network setup, including VLAN segmenta
 ## Topology
 The following diagram illustrates the network topology:
 
-<a href="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/Topology.jpg?raw=true" target="_blank">
-  <img src="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/Topology.jpg?raw=true" width="400"/>
+<a href="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Topology.jpg?raw=true" target="_blank">
+  <img src="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Topology.jpg?raw=true" width="400"/>
 </a>
+
 
 ## VLAN Setup
 The VLAN segmentation is configured as follows:
