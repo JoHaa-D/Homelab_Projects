@@ -7,7 +7,7 @@ This repository documents the implementation of a **home network setup** with VL
 ![Network Topology](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)
 
 Click the image for a larger view:
-[![Network Topology](network-setup/.images/Topology.jpg)](network-setup/.images/Topology.jpg)
+[![Network Topology](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)
 
 ---
 
@@ -30,16 +30,16 @@ Click the image for a larger view:
 | **Guest** | 50 | 192.168.50.0/24 | Guest WiFi | Internet access, casting to IoT |
 
 ## Firewall Rules
-![Firewall Rules](network-setup/.images/Firewall_rules.jpg)
-[Click to enlarge](network-setup/.images/Firewall_rules.jpg)
+![Firewall Rules](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewall_rules.jpg)
+[Click to enlarge](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewall_rules.jpg)
 
 ## Wireless Network (SSID Setup)
-![WiFi SSID Network](network-setup/.images/WIFI_SSID_Network.jpg)
-[Click to enlarge](network-setup/.images/WIFI_SSID_Network.jpg)
+![WiFi SSID Network](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/WIFI_SSID_Network.jpg)
+[Click to enlarge](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/WIFI_SSID_Network.jpg)
 
 ## Network Management
-![Network Management](network-setup/.images/Network_Management.jpg)
-[Click to enlarge](network-setup/.images/Network_Management.jpg)
+![Network Management](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Network_Management.jpg)
+[Click to enlarge](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Network_Management.jpg)
 
 ## Implementation Details
 - **Bridge Mode**: ISP modem/router configured in bridge mode to let **Ubiquiti Dream Machine Pro** handle routing.
