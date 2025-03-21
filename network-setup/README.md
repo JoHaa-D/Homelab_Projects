@@ -1,46 +1,72 @@
+# Home Network Setup - Homelab Project
 
-# Network Setup Report
+## Overview
+This project documents the implementation of a segmented home network using a Ubiquiti EdgeRouter 4, VLANs, firewall rules, and wireless SSIDs for better security and performance.
 
-## Introduction
-This document provides an overview of the network setup, including VLAN segmentation, firewall rules, device management, and SSID configurations.
-
-## Topology
-The following diagram illustrates the network topology:
-
-<a href="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Topology.jpg?raw=true" target="_blank">
-  <img src="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Topology.jpg?raw=true" width="300"/>
-</a>
-
-
-## VLAN Setup
-The VLAN segmentation is configured as follows:
-
-<a href="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Network_VLAN_setup.jpg?raw=true" target="_blank">
-  <img src="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Network_VLAN_setup.jpg?raw=true" width="300"/>
-</a>
-
-## Firewall Rules
-The firewall rules were set up to control traffic between VLANs.
-
-**Before:**
-<a href="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Firewall_rules.jpg?raw=true" target="_blank">
-  <img src="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Firewall_rules.jpg?raw=true" width="300"/>
-</a>
-
-**After:**
-<a href="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Firewall_rules_added.jpg?raw=true" target="_blank">
-  <img src="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Firewall_rules_added.jpg?raw=true" width="400"/>
-</a>
-
-## SSID Configuration
-The WiFi SSID network configuration:
-
-<a href="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/WIFI_SSID_Network.jpg?raw=true" target="_blank">
-  <img src="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/WIFI_SSID_Network.jpg?raw=true" width="300"/>
-</a>
-
-## Conclusion
-This report summarizes the key configurations of the network, ensuring proper segmentation and security.
+### Goals:
+- Create separate VLANs for **Personal, IoT, and Guest** devices.
+- Implement **firewall rules** to control inter-VLAN traffic.
+- Optimize **wireless access points** and SSIDs for segmentation.
+- Deploy a **home NAS server** for secure file sharing.
 
 ---
 
+## Network Topology
+![Network Topology](network-setup/.images/Topology.jpg)
+> *Diagram of the network layout*
+
+[🔍 Click here to view full size](network-setup/.images/Topology.jpg)
+
+---
+
+## VLAN & Firewall Rules
+| VLAN | Purpose | Subnet |
+|------|---------|--------|
+| **VLAN 10** | Home Network | `192.168.10.0/24` |
+| **VLAN 20** | IoT Devices | `192.168.20.0/24` |
+| **VLAN 30** | Guest Network | `192.168.30.0/24` |
+
+### Firewall Setup
+- **Allow** Home → IoT & Guest
+- **Block** IoT → Home & Guest
+- **Allow** Guest → IoT
+- **Block** Guest → Home
+
+📜 **Firewall Rules Configuration**
+![Firewall Rules](network-setup/.images/Firewall_rules.jpg)
+
+[🔍 View Larger](network-setup/.images/Firewall_rules.jpg)
+
+---
+
+## Network Devices
+![Devices Connected](network-setup/.images/Network_Devices.JPG)
+[🔍 Click to enlarge](network-setup/.images/Network_Devices.JPG)
+
+---
+
+## Wireless SSID Setup
+| SSID | VLAN | Frequency |
+|------|------|-----------|
+| **Home_Network** | VLAN 10 | 5GHz |
+| **IoT_Network** | VLAN 20 | 2.4GHz |
+| **Guest_Network** | VLAN 30 | 2.4GHz |
+
+📡 **SSID Configuration**
+![WiFi Setup](network-setup/.images/WIFI_SSID_Network.jpg)
+
+[🔍 Click for Full View](network-setup/.images/WIFI_SSID_Network.jpg)
+
+---
+
+## Future Improvements:
+- **Integrate a NAS server** for family file sharing.
+- **Enhance security** by implementing **DNS filtering & VPN access**.
+- **Add monitoring & logging** to track network traffic.
+
+---
+
+## How to Contribute
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/JoHaa-D/Homelab_Projects.git
