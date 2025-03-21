@@ -33,8 +33,6 @@ This repository documents the implementation of a **home network setup** with VL
   <img src="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewall_rules.jpg" width="600">
 </a>
 
-[https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Firewal_rules.jpg?raw=true](https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Firewal_rules.jpg?raw=true)
-
 ## Wireless Network (SSID Setup)
 <a href="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/WIFI_SSID_Network.jpg" target="_blank">
   <img src="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/WIFI_SSID_Network.jpg" width="600">
