@@ -14,8 +14,8 @@ The following diagram illustrates the network topology:
 ## VLAN Setup
 The VLAN segmentation is configured as follows:
 
-<a href="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/Network%20VLAN%20setup.jpg?raw=true" target="_blank">
-  <img src="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/Network%20VLAN%20setup.jpg?raw=true" width="400"/>
+<a href="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Network%20VLAN%20setup.jpg?raw=true" target="_blank">
+  <img src="https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Network%20VLAN%20setup.jpg?raw=true" width="400"/>
 </a>
 
 ## Firewall Rules
