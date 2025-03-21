@@ -34,8 +34,8 @@ This repository documents the implementation of a **home network setup** with VL
 </a>
 https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Firewal_%20rules.jpg?raw=true
 
-<a href="[https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewall_rules.jpg](https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Firewal_%20rules.jpg)" target="_blank">
-  <img src="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewall_rules.jpg" width="600">
+<a href="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewal_%20rules.jpg" target="_blank">
+  <img src="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewal_%20rules.jpg" width="600">
 </a>
 
 ## Wireless Network (SSID Setup)
