@@ -12,7 +12,7 @@ This project documents the implementation of a segmented home network using a Ub
 ---
 
 ## Network Topology
-![Network Topology]([network-setup/.images/Topology.jpg](https://github.com/JoHaa-D/Homelab_Projects/blob/main/network-setup/.images/Topology.jpg?raw=true))
+![Network Topology](network-setup/images/Topology.jpg)
 > *Diagram of the network layout*
 
 [🔍 Click here to view full size](network-setup/.images/Topology.jpg)
