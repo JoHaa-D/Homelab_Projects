@@ -4,10 +4,9 @@
 This repository documents the implementation of a **home network setup** with VLAN segmentation, security policies, and network management. The project aims to provide a **scalable, secure, and efficient** networking solution.
 
 ## Network Topology
-![Network Topology](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)
-
-Click the image for a larger view:
 [![Network Topology](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)
+Click the image for a larger view:
+
 
 ---
 
