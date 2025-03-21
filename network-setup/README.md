@@ -7,6 +7,10 @@ This repository documents the implementation of a **home network setup** with VL
 [![Network Topology](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)
 [Click to enlarge](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)
 
+## Network Topology
+<a href="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg" target="_blank">
+  <img src="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg" width="600">
+</a>
 
 ---
 
