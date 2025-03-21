@@ -1,72 +1,51 @@
-# Home Network Setup - Homelab Project
+# Home Network Setup
 
 ## Overview
-This project documents the implementation of a segmented home network using a Ubiquiti EdgeRouter 4, VLANs, firewall rules, and wireless SSIDs for better security and performance.
-
-### Goals:
-- Create separate VLANs for **Personal, IoT, and Guest** devices.
-- Implement **firewall rules** to control inter-VLAN traffic.
-- Optimize **wireless access points** and SSIDs for segmentation.
-- Deploy a **home NAS server** for secure file sharing.
-
----
+This repository documents the implementation of a **home network setup** with VLAN segmentation, security policies, and network management. The project aims to provide a **scalable, secure, and efficient** networking solution.
 
 ## Network Topology
-![Network Topology](network-setup/images/Topology.jpg)
-> *Diagram of the network layout*
+![Network Topology](network-setup/.images/Topology.jpg)
 
-[🔍 Click here to view full size](network-setup/.images/Topology.jpg)
+Click the image for a larger view:
+[![Network Topology](network-setup/.images/Topology.jpg)](network-setup/.images/Topology.jpg)
 
 ---
 
-## VLAN & Firewall Rules
-| VLAN | Purpose | Subnet |
-|------|---------|--------|
-| **VLAN 10** | Home Network | `192.168.10.0/24` |
-| **VLAN 20** | IoT Devices | `192.168.20.0/24` |
-| **VLAN 30** | Guest Network | `192.168.30.0/24` |
+## Equipment List
+| Device | Purpose | Placement | Notes |
+|--------|---------|-----------|-------|
+| **Actiontec T3200** | ISP Modem/Router | Bridge Mode | 1Gbps speeds |
+| **Ubiquiti Dream Machine Pro** | Gateway, Firewall, DHCP, DNS | Centralized | Remote management |
+| **Unifi USW-Lite-8-PoE** | Main switch | Centralized | Tagged VLANs: Secure, IoT, Camera, Guest |
+| **UniFi Flex Mini** | IoT Switch | Distributed | VLANs: Secure, IoT |
+| **APC UPC 1500 Pro** | Backup Power | Rack | Ensures uptime |
 
-### Firewall Setup
-- **Allow** Home → IoT & Guest
-- **Block** IoT → Home & Guest
-- **Allow** Guest → IoT
-- **Block** Guest → Home
+## VLAN Configuration
+| VLAN | ID | Subnet | Purpose | Communication |
+|------|----|--------|---------|--------------|
+| **Management** | 1 | 192.168.10.0/24 | Network Devices | Isolated |
+| **Secure** | 20 | 192.168.20.0/24 | Personal Network | Full Access |
+| **IoT** | 30 | 192.168.30.0/24 | Smart Home Devices | Internet only, limited LAN |
+| **Camera** | 40 | 192.168.40.0/24 | WiFi Security Cameras | Internet only |
+| **Guest** | 50 | 192.168.50.0/24 | Guest WiFi | Internet access, casting to IoT |
 
-📜 **Firewall Rules Configuration**
+## Firewall Rules
 ![Firewall Rules](network-setup/.images/Firewall_rules.jpg)
+[Click to enlarge](network-setup/.images/Firewall_rules.jpg)
 
-[🔍 View Larger](network-setup/.images/Firewall_rules.jpg)
+## Wireless Network (SSID Setup)
+![WiFi SSID Network](network-setup/.images/WIFI_SSID_Network.jpg)
+[Click to enlarge](network-setup/.images/WIFI_SSID_Network.jpg)
 
----
+## Network Management
+![Network Management](network-setup/.images/Network_Management.jpg)
+[Click to enlarge](network-setup/.images/Network_Management.jpg)
 
-## Network Devices
-![Devices Connected](network-setup/.images/Network_Devices.JPG)
-[🔍 Click to enlarge](network-setup/.images/Network_Devices.JPG)
+## Implementation Details
+- **Bridge Mode**: ISP modem/router configured in bridge mode to let **Ubiquiti Dream Machine Pro** handle routing.
+- **DHCP & DNS**: Managed via UDM-Pro.
+- **IoT VLAN Isolation**: IoT devices cannot communicate with Secure or Guest networks.
+- **Guest VLAN**: Provides internet access with limited casting ability.
 
----
-
-## Wireless SSID Setup
-| SSID | VLAN | Frequency |
-|------|------|-----------|
-| **Home_Network** | VLAN 10 | 5GHz |
-| **IoT_Network** | VLAN 20 | 2.4GHz |
-| **Guest_Network** | VLAN 30 | 2.4GHz |
-
-📡 **SSID Configuration**
-![WiFi Setup](network-setup/.images/WIFI_SSID_Network.jpg)
-
-[🔍 Click for Full View](network-setup/.images/WIFI_SSID_Network.jpg)
-
----
-
-## Future Improvements:
-- **Integrate a NAS server** for family file sharing.
-- **Enhance security** by implementing **DNS filtering & VPN access**.
-- **Add monitoring & logging** to track network traffic.
-
----
-
-## How to Contribute
-1. Clone the repo:
-   ```sh
-   git clone https://github.com/JoHaa-D/Homelab_Projects.git
+## Conclusion
+This homelab project demonstrates best practices in network segmentation, firewall configurations, and VLAN security for a home environment.
