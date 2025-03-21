@@ -4,10 +4,6 @@
 This repository documents the implementation of a **home network setup** with VLAN segmentation, security policies, and network management. The project aims to provide a **scalable, secure, and efficient** networking solution.
 
 ## Network Topology
-[![Network Topology](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)
-[Click to enlarge](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg)
-
-## Network Topology
 <a href="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg" target="_blank">
   <img src="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Topology.jpg" width="600">
 </a>
@@ -33,16 +29,19 @@ This repository documents the implementation of a **home network setup** with VL
 | **Guest** | 50 | 192.168.50.0/24 | Guest WiFi | Internet access, casting to IoT |
 
 ## Firewall Rules
-![Firewall Rules](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewall_rules.jpg)
-[Click to enlarge](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewall_rules.jpg)
+<a href="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewall_rules.jpg" target="_blank">
+  <img src="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Firewall_rules.jpg" width="600">
+</a>
 
 ## Wireless Network (SSID Setup)
-![WiFi SSID Network](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/WIFI_SSID_Network.jpg)
-[Click to enlarge](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/WIFI_SSID_Network.jpg)
+<a href="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/WIFI_SSID_Network.jpg" target="_blank">
+  <img src="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/WIFI_SSID_Network.jpg" width="600">
+</a>
 
 ## Network Management
-![Network Management](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Network_Management.jpg)
-[Click to enlarge](https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Network_Management.jpg)
+<a href="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Network_Management.jpg" target="_blank">
+  <img src="https://raw.githubusercontent.com/JoHaa-D/Homelab_Projects/main/network-setup/.images/Network_Management.jpg" width="600">
+</a>
 
 ## Implementation Details
 - **Bridge Mode**: ISP modem/router configured in bridge mode to let **Ubiquiti Dream Machine Pro** handle routing.
