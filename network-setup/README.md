@@ -14,14 +14,6 @@ The Ubiquiti Dream Machine Pro (UDMP), was selected as the main network device w
 
 ---
 
-## Network Topology
-
-Click image to enlarge:
-
-[![Network Topology](./images/Network_topology.jpg)](./images/Network_topology.jpg)
-
----
-
 ## Equipment List
 
 | Device                             | Purpose/Placement                                  | Notes                                      |
@@ -66,7 +58,15 @@ Click image to enlarge:
 
 All hardware was placed and connected. PoE powered Flex Mini and UniFi U6+. Devices connected and adopted in the controller.
 
+Click image to enlarge:
+
 [![Devices](./images/Network_devices.JPG)](./images/Network_devices.JPG)
+
+---
+
+## Network Topology
+
+[![Network Topology](./images/Network_topology.jpg)](./images/Network_topology.jpg)
 
 ---
 
