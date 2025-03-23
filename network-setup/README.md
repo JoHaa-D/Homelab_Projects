@@ -1,6 +1,6 @@
 # 🏠 Home Network Setup
 
-[![View Report](https://img.shields.io/badge/PDF_Report-View-blue?logo=adobeacrobatreader&style=for-the-badge)](./Home_Network_Infrastructure_Professional.pdf)
+[![View Report](https://img.shields.io/badge/PDF_Report-View-blue?logo=adobeacrobatreader&style=for-the-badge)](./Home/network-setup/Upload files/Home_Network_Infrastructure_Report.pdf)
 
 ## Overview
 ...
