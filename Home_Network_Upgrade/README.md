@@ -142,11 +142,15 @@ Confirmed segmentation, tested with ping from VLAN to VLAN:
 
 ## Final Testing
 
+Existing network devices were migrated into the new network segments. ISP modem was put into "transparent bridge" mode to forward WAN IP. 
+
 - All VLAN rules verified
 - Internet access confirmed for isolated networks
 - Casting functions validated
 - Guest SSID secured with portal + isolation
 - Kid device firewall rules for time/content filtering
+
+
 
 ---
 
