@@ -153,10 +153,13 @@ Existing network devices were migrated into the new network segments. ISP modem 
 
 
 ---
+## Troubleshooting
+
+I ran into an issue towards the end when I migrated all devices over. I thought I had the ISP modem in bridge mode, however, there was another setting called "port bridge" mode that bridged all LAN ports and forwarded the WAN IP address. This resulted in the ISP model still handling WAN DHCP requests. Every time the WAN IP address leases were renewed, the UDMP would drop the internet connection. This was discovered by testing and monitoring the DHCP lease/renew process. I forced released/renewed a new WAN IP address on the ISP modem and noticed that the UDMP would immediately drop connection to the ISP modem. Inspecting the configuration on the ISP modem I found that "transparent bridge" mode was what I needed, not "port bridge" mode.   
 
 ## Summary
 
-This project was carried out with an interest in further securing home environments, practicing enterprise-level concepts, and a basis to allow for implementing future home lab projects. It was a joy to carry out and I am now seeing the attachment that others express with all things Ubiquiti. I look forward to futher expanding, upgrading, and customizing my home network.   
+This project was carried out with an interest in further securing home environments, practicing enterprise-level concepts, and a basis to allow for implementing future home lab projects. It was a joy to carry out and I am now seeing the attachment that others express with all things Ubiquiti. I look forward to further expanding, upgrading, and customizing my home network.   
 
 [![View Report](https://img.shields.io/badge/PDF_Report-View-blue?logo=adobeacrobatreader&style=for-the-badge)](./Home_Network_Infrastructure_Report.pdf)
 
