@@ -14,4 +14,4 @@ Hello, and welcome to my home lab repository! This is where I document my past a
 - **Active Directory Lab** Windows Server VM 
 
 ## Contact
-If you have questions, feel free to reach out via GitHub issues or discussions!
+joseph.hardy603@gmail.com
