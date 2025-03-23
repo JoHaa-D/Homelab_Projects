@@ -31,7 +31,7 @@ The Ubiquiti Dream Machine Pro (UDMP), was selected as the main network device w
 
 | VLAN       | ID  | Subnet              | Devices                        | Notes                                      |
 |------------|-----|---------------------|--------------------------------|--------------------------------------------|
-| Management | 10  | 192.168.10.0/24     | Network infrastructure         | Isolated; no access from other VLANs       |
+| Management | 1  | 192.168.10.0/24     | Network infrastructure         | Isolated; no access from other VLANs       |
 | Secure     | 20  | 192.168.20.0/24     | Phones, PCs, printer, scanner  | Full access across VLANs                   |
 | IoT        | 30  | 192.168.30.0/24     | Smart TVs, plugs, appliances   | Internet only; casting allowed             |
 | Camera     | 40  | 192.168.40.0/24     | IP cameras                     | Internet only; remote view enabled         |
@@ -147,13 +147,6 @@ Confirmed segmentation, tested with ping from VLAN to VLAN:
 
 ## Summary
 
-This project demonstrates a practical implementation of enterprise-level concepts at the home level including:
-- VLAN segmentation
-- Network isolation
-- Custom firewall rules
-- Secure remote management
-- IDS/IPS threat detection
-
-Built with **security-first** design and **hands-on lab experience** — ideal for home cybersecurity practitioners or IT professionals showcasing skills in real environments.
+This project was carried out with an interest in further securing home environments, practicing enterprise-level concepts, and a basis to allow for implementing future home lab projects.  
 
 ---
