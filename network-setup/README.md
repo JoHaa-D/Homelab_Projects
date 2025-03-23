@@ -1,6 +1,6 @@
 # 🏠 Home Network Setup
 
-[Download the full professional project report (PDF)](./Home_Network_Report_Professional.pdf)
+[![View Report](https://img.shields.io/badge/PDF_Report-View-blue?logo=adobeacrobatreader&style=for-the-badge)](./Home_Network_Infrastructure_Professional.pdf)
 
 ## Overview
 ...
