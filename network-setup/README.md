@@ -1,19 +1,20 @@
-# 🏠 Home Network Setup
+# Home Network Setup
 
 ## Overview
-This project documents the planning, deployment, and configuration of a segmented home network using **Ubiquiti UniFi equipment**, with a focus on **security**, **scalability**, and **network management**.
+This project documents the planning, deployment, and configuration of a segmented home network using **Ubiquiti UniFi equipment**, with a focus on security, scalability, and network management.
 
-The core of the network is the **Ubiquiti Dream Machine Pro (UDMP)**, which provides:
+The Ubiquiti Dream Machine Pro (UDMP), was selected as the main network device with its feature-rich capabilities like:
 - Application-layer firewall
 - VLAN segmentation
 - DHCP & DNS management
 - IDS/IPS functionality
 - VPN and remote access support
 - Network video recorder (NVR) capability
+- 10 GB throughput
 
 ---
 
-## 📐 Network Topology
+## Network Topology
 
 Click image to enlarge:
 
@@ -21,7 +22,7 @@ Click image to enlarge:
 
 ---
 
-## 🔧 Equipment List
+## Equipment List
 
 | Device                             | Purpose/Placement                                  | Notes                                      |
 |------------------------------------|----------------------------------------------------|--------------------------------------------|
@@ -34,7 +35,7 @@ Click image to enlarge:
 
 ---
 
-## 🌐 VLAN Segmentation
+## VLAN Segmentation
 
 | VLAN       | ID  | Subnet              | Devices                        | Notes                                      |
 |------------|-----|---------------------|--------------------------------|--------------------------------------------|
@@ -46,7 +47,7 @@ Click image to enlarge:
 
 ---
 
-## 🧱 Firewall Configuration
+## Firewall Configuration
 
 | From → To         | Access                          |
 |-------------------|---------------------------------|
@@ -59,7 +60,7 @@ Click image to enlarge:
 
 ---
 
-## 🛠 Setup Steps
+## Setup Steps
 
 ### 1. Connect Devices
 
@@ -132,7 +133,7 @@ Confirmed segmentation, tested with ping from VLAN to VLAN:
 
 ---
 
-## ✅ Final Testing
+## Final Testing
 
 - All VLAN rules verified
 - Internet access confirmed for isolated networks
@@ -142,7 +143,7 @@ Confirmed segmentation, tested with ping from VLAN to VLAN:
 
 ---
 
-## 📘 Summary
+## Summary
 
 This project demonstrates a practical implementation of enterprise-level concepts at the home level including:
 - VLAN segmentation
