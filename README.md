@@ -11,7 +11,8 @@ Hello, and welcome to my home lab repository! This is where I document my past a
 - **Ad Blocking** Pi-hole - DNS Sinkhole
 - **Vulnerability Scanning Lab** OpenVAS, Nessus Essentials, Nmap
 - **SIEM and Log Management** Cloud or self-hosted setup
-- **Active Directory Lab** Windows Server VM 
+- **Active Directory Lab** Windows Server VM
+- **Red team / Blue team** exercises
 
 ## Contact
 joseph.hardy603@gmail.com
