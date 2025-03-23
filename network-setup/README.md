@@ -1,6 +1,10 @@
-# Home Network Setup
+# 🏠 Home Network Setup
+
+[Download the full professional project report (PDF)](./Home_Network_Report_Professional.pdf)
 
 ## Overview
+...
+
 This project documents the planning, deployment, and configuration of a segmented home network using **Ubiquiti UniFi equipment**, with a focus on security, scalability, and network management.
 
 The Ubiquiti Dream Machine Pro (UDMP), was selected as the main network device with its feature-rich capabilities:
