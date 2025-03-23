@@ -24,6 +24,7 @@ The Ubiquiti Dream Machine Pro (UDMP), was selected as the main network device w
 | UniFi Flex Mini                    | Secondary PoE Switch for IoT                       | Tagged VLANs (Secure and IoT)              |
 | UniFi U6+                          | Wireless Access Point                              | 4 SSIDs segmented by VLANs                 |
 | 2x UPS                             | Backup Power                                       | Ensures uptime for core devices            |
+| Cat6 Ethernet Cables               | Connect network devices                            | Supports up to 10 GB speeds                |
 
 ---
 
