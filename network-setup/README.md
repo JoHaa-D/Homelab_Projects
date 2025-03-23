@@ -3,7 +3,7 @@
 ## Overview
 This project documents the planning, deployment, and configuration of a segmented home network using **Ubiquiti UniFi equipment**, with a focus on security, scalability, and network management.
 
-The Ubiquiti Dream Machine Pro (UDMP), was selected as the main network device with its feature-rich capabilities like:
+The Ubiquiti Dream Machine Pro (UDMP), was selected as the main network device with its feature-rich capabilities:
 - Application-layer firewall
 - VLAN segmentation
 - DHCP & DNS management
