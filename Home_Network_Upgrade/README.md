@@ -152,7 +152,7 @@ Confirmed segmentation, tested with ping from VLAN to VLAN:
 
 ## Summary
 
-This project was carried out with an interest in further securing home environments, practicing enterprise-level concepts, and a basis to allow for implementing future home lab projects.  
+This project was carried out with an interest in further securing home environments, practicing enterprise-level concepts, and a basis to allow for implementing future home lab projects. It was a joy to carry out and I am now seeing the attachment that others express with all things Ubiquiti. I look forward to futher expanding, upgrading, and customizing my home network.   
 
 [![View Report](https://img.shields.io/badge/PDF_Report-View-blue?logo=adobeacrobatreader&style=for-the-badge)](./Home_Network_Infrastructure_Report.pdf)
 
