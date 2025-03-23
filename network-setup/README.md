@@ -49,6 +49,8 @@ The Ubiquiti Dream Machine Pro (UDMP), was selected as the main network device w
 | Guest → Secure    | ❌ Blocked                       |
 | Guest → IoT       | ✅ Allowed (casting only)        |
 | VLANs → Management| ❌ Blocked (except Secure VLAN)  |
+| Gateways          | ❌ Blocked (except main and secure)|
+| Kid devices       | 🕒📺 Time and content restrictions |
 
 ---
 
