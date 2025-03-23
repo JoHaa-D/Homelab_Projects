@@ -6,7 +6,7 @@ Hello, and welcome to my home lab repository! This is where I document my past a
 - **[Home Network Upgrade](Home_Network_Upgrade/)**: Ubiquiti device setup, VLAN segmentation, firewall rules, and security.
 
 ## Future Projects of Interest
-- **NAS server** with web hosting to showcase family photo archives with secure access to family members.
+- **NAS server** with TrueNAS for family photos/videos, secure web access for family members.
 - **Home Assistant Setup** with Raspberry Pi and Fire tablet (wall mounted) for dashboard access.
 - **Ad Blocking** Pi-hole - DNS Sinkhole
 - **Vulnerability Scanning Lab** OpenVAS, Nessus Essentials, Nmap
