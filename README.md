@@ -12,7 +12,7 @@ Hello, and welcome to my home lab repository! This is where I document my past a
 - **Vulnerability Scanning Lab** OpenVAS, Nessus Essentials, Nmap
 - **SIEM and Log Management** Cloud or self-hosted setup
 - **Active Directory Lab** Windows Server VM
-- **Red team / Blue team** exercises
+- **Red team / Blue team** (Hack the Box, Capture the Flag events, Try Hack Me, malware analysis)
 
 ## Contact
 joseph.hardy603@gmail.com
