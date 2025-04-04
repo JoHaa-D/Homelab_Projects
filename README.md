@@ -4,7 +4,7 @@ Hello, and welcome to my home lab repository! This is where I document my past a
 
 ## Projects
 - **[Home Network Upgrade](Home_Network_Upgrade/)**: Ubiquiti device setup, VLAN segmentation, firewall rules, and security.
-- **[Azure Honeypot SIEM Lab](Home_Network_Upgrade/)**: Azure cloud resources, Microsoft Sentinel, Windows VM, Log Analytics.
+- **[Azure Honeypot SIEM Lab](Azure SIEM Honeypot Lab/README.md/)**: Azure cloud resources, Microsoft Sentinel, Windows VM, Log Analytics.
 
 ## Future Projects of Interest
 - **NAS server** with TrueNAS for family photos/videos, secure web access for family members.
