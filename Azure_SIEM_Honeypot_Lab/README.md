@@ -37,9 +37,11 @@ Created a new **resource group**, virtual network, and set up the Azure dashboar
 Created a Windows VM with a finance-sounding name `FIN-SQL-02` and allowed **all inbound traffic** via the NSG. Disabled the Windows firewall.
 
 [![WindowsVM](./images/5_WindowsVM_created.png)](./images/5_WindowsVM_created.png) 
-[![NSG Firewall](./images/6_NSG_firewall.png)](./images/6_NSG_firewall.png)  
+[![VM deployed](./images/6_VM_deployed.png)](./images/6_VM_deployed.png)
+[![NSG Firewall](./images/6_NSG_firewall.png)](./images/6_NSG_firewall.png) 
 [![Remote In](./images/8_Remote_in_desktop.png)](./images/8_Remote_in_desktop.png)  
 [![Firewall Off](./images/9_WindowsVM_firewall_off.png)](./images/9_WindowsVM_firewall_off.png)
+[![Ping test](./images/10_Pingtest_to_VM.png)](./images/10_Pingtest_to_VM.png)
 
 ---
 
@@ -58,7 +60,7 @@ Created a **Log Analytics Workspace**, connected **Microsoft Sentinel**, and ins
 
 [![Log Analytics Workspace](./images/13_Workspace_created.png)](./images/13_Workspace_created.png)  
 [![Sentinel Workspace](./images/14_MAS_Sentinel_WS.png)](./images/14_MAS_Sentinel_WS.png)  
-[![Sentinel Landing](./images/15_SentinelLandingpage.png)](./images/15_SentinelLandingpage.png)  
+[![Sentinel Landing](./images/16_SentinelLandingpage.png)](./images/16_SentinelLandingpage.png)  
 [![Monitor Agent](./images/19_Monitor_agent_deployed.png)](./images/19_Monitor_agent_deployed.png)
 
 ---
