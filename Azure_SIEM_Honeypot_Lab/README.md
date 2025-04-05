@@ -49,8 +49,8 @@ Created a Windows VM with a finance-sounding name `FIN-SQL-02` and allowed **all
 
 Used RDP to intentionally fail logins. Event Viewer immediately showed Event ID **4625** for failed attempts. Logs showed real brute-force attempts almost immediately.
 
-[![Failed Logins](./images/11_VM_login_test_fail_results.png)](./images/11_VM_login_test_fail_results.png)  
-[![Login Fail Alerts](./images/12_VM_login_test_fail_results.png)](./images/12_VM_login_test_fail_results.png)
+[![Failed Logins](./images/11_VM_login_test_fail.png)](./images/11_VM_login_test_fail.png)  
+[![Login Fail Alerts](./images/12_VM_longin_test_fail_results.png)](./images/12_VM_longin_test_fail_results.png)
 
 ---
 
@@ -61,7 +61,10 @@ Created a **Log Analytics Workspace**, connected **Microsoft Sentinel**, and ins
 [![Log Analytics Workspace](./images/13_Workspace_created.png)](./images/13_Workspace_created.png)  
 [![Sentinel Workspace](./images/14_MAS_Sentinel_WS.png)](./images/14_MAS_Sentinel_WS.png)  
 [![Sentinel Landing](./images/16_SentinelLandingpage.png)](./images/16_SentinelLandingpage.png)  
+[![Launch Windows Security Events](./images/17_Windows_security_events.png)](./images/17_Windows_security_events.png)
+[![Connected Security Evnents](./images/18_Connected_security_events_to_monitor_agent.png)](./images/18_Connected_security_events_to_monitor_agent.png)
 [![Monitor Agent](./images/19_Monitor_agent_deployed.png)](./images/19_Monitor_agent_deployed.png)
+[![Logs collecting](./images/20_Logs_collecting.png)](./images/20_Logs_collecting.png)
 
 ---
 
