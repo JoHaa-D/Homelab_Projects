@@ -16,7 +16,7 @@ This project documents the planning and deployment of a **Windows honeypot in Mi
 - Watchlist-based GeoIP lookups
 - Global heatmap + dashboard in Sentinel
 
-[![Lab Diagram](./images/1_Azure_Honeypot_Lab_Diagram.jpeg)](./images/1_ProjectTo_VM.png)
+[![Lab Diagram](./images/1_Azure_Honeypot_Lab_Diagram.jpg)](./images/1_ProjectTo_VM.png)
 
 ---
 
