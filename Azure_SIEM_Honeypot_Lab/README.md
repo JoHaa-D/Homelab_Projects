@@ -82,21 +82,11 @@ Uploaded `geoip-summarized.csv` as a **Watchlist** and used the `ipv4_lookup()` 
 
 Created a **Sentinel Workbook** and global **heatmap** for login attempts.
 
+[![Heatmap](./images/27_HeatMap_generated.png)](./images/27_HeatMap_generated.png) 
 [![Heatmap](./images/27_HeatMap_after_24hrs.png)](./images/27_HeatMap_after_24hrs.png)  
-[![GeoMap](./images/28_Query_top_country_attacks.png)](./images/28_Query_top_country_attacks.png)
-
-```kql
-let GeoIPDB_FULL = _GetWatchlist("geoip");
-SecurityEvent
-| where EventID == 4625
-| summarize FailedLoginCount = count() by IpAddress
-| top 10 by FailedLoginCount desc
-| evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network)
-| project IpAddress, cityname, countryname, latitude, longitude, FailedLoginCount
-```
 
 JSON text for map configuration
-```JSON text for map configuration
+```JSON map configuration
 {
 	"type": 3,
 	"content": {
@@ -136,15 +126,27 @@ JSON text for map configuration
 
 ### 7. Target Username Analysis
 
-Queried the top usernames targeted by attackers using KQL.
+Queried the top usernames targeted and location by attackers using KQL.
 
-[![Username Query](./images/30_GeoMap_top_username_attempts.png)](./images/30_GeoMap_top_username_attempts.png)
+[![Username Query](./images/29_Query_top_username_attempts.png)](./images/29_Query_top_username_attempts.png)
 
 ```kql
 SecurityEvent
 | where EventID == 4625
 | summarize FailedLoginCount = count() by TargetUserName
 | top 20 by FailedLoginCount desc
+```
+
+[![GeoMap](./images/28_Query_top_country_attacks.png)](./images/28_Query_top_country_attacks.png)
+
+```kql
+let GeoIPDB_FULL = _GetWatchlist("geoip");
+SecurityEvent
+| where EventID == 4625
+| summarize FailedLoginCount = count() by IpAddress
+| top 10 by FailedLoginCount desc
+| evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network)
+| project IpAddress, cityname, countryname, latitude, longitude, FailedLoginCount
 ```
 
 ---
