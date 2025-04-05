@@ -76,6 +76,15 @@ Uploaded `geoip-summarized.csv` as a **Watchlist** and used the `ipv4_lookup()` 
 [![Watchlist Upload](./images/24_Sentinel_watchlist_geodata.png)](./images/24_Sentinel_watchlist_geodata.png)
 [![GeoIP Upload](./images/26_GeoIP_data_upload_success.png)](./images/26_GeoIP_data_upload_success.png)  
 
+---
+
+### 6. Visualizing the Attacks
+
+Created a **Sentinel Workbook** and global **heatmap** for login attempts.
+
+[![Heatmap](./images/27_HeatMap_after_24hrs.png)](./images/27_HeatMap_after_24hrs.png)  
+[![GeoMap](./images/28_Query_top_country_attacks.png)](./images/28_Query_top_country_attacks.png)
+
 ```kql
 let GeoIPDB_FULL = _GetWatchlist("geoip");
 SecurityEvent
@@ -86,15 +95,7 @@ SecurityEvent
 | project IpAddress, cityname, countryname, latitude, longitude, FailedLoginCount
 ```
 
----
-
-### 6. Visualizing the Attacks
-
-Created a **Sentinel Workbook** and global **heatmap** for login attempts.
-
-[![Heatmap](./images/27_HeatMap_after_24hrs.png)](./images/27_HeatMap_after_24hrs.png)  
-[![GeoMap](./images/28_Query_top_country_attacks.png)](./images/28_Query_top_country_attacks.png)
-
+JSON text for map configuration
 ```JSON text for map configuration
 {
 	"type": 3,
