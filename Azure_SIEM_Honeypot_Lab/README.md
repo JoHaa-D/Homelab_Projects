@@ -27,8 +27,8 @@ This project documents the planning and deployment of a **Windows honeypot in Mi
 Created a new **resource group**, virtual network, and set up the Azure dashboard.
 
 [![Azure Dashboard](./images/2_Fresh_dashboard.png)](./images/2_Fresh_dashboard.png)  
-[![Resource Group](./images/3_VM_login_test_fail_results.png)](./images/3_VM_login_test_fail_results.png)  
-[![Virtual Network](./images/4_Log_analytics_WS_created.png)](./images/4_Log_analytics_WS_created.png)
+[![Resource Group](./images/3_Created_resource_group.png)](./images/3_Created_resource_group.png)  
+[![Virtual Network](./images/4_Vnet_deployed.png)](./images/4_Vnet_deployed.png)
 
 ---
 
@@ -36,6 +36,7 @@ Created a new **resource group**, virtual network, and set up the Azure dashboar
 
 Created a Windows VM with a finance-sounding name `FIN-SQL-02` and allowed **all inbound traffic** via the NSG. Disabled the Windows firewall.
 
+[![WindowsVM](./images/5_WindowsVM_created.png)](./images/5_WindowsVM_created.png) 
 [![NSG Firewall](./images/6_NSG_firewall.png)](./images/6_NSG_firewall.png)  
 [![Remote In](./images/8_Remote_in_desktop.png)](./images/8_Remote_in_desktop.png)  
 [![Firewall Off](./images/9_WindowsVM_firewall_off.png)](./images/9_WindowsVM_firewall_off.png)
