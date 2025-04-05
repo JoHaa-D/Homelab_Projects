@@ -63,6 +63,7 @@ Created a **Log Analytics Workspace**, connected **Microsoft Sentinel**, and ins
 [![Sentinel Landing](./images/16_Sentinel_landingpage.png)](./images/16_Sentinel_landingpage.png)  
 [![Launch Windows Security Events](./images/17_Windows_security_events.png)](./images/17_Windows_security_events.png)
 [![Connected Security Evnents](./images/18_Connected_security_events_to_monitor_agent.png)](./images/18_Connected_security_events_to_monitor_agent.png)
+[![Monitor Agent](./images/19_Collection_rule_to_send_to_sentinel.png)](./images/19_Collection_rule_to_send_to_sentinel.png)
 [![Monitor Agent](./images/19_Monitor_agent_deployed.png)](./images/19_Monitor_agent_deployed.png)
 [![Logs collecting](./images/20_Logs_collecting.png)](./images/20_Logs_collecting.png)
 
