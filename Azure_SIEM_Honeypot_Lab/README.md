@@ -18,7 +18,7 @@ This project documents the planning and deployment of a **Windows honeypot in Mi
 
 [![Lab Diagram](./images/1_Azure_Honeypot_Lab_Diagram.jpg)](./images/1_Azure_Honeypot_Lab_Diagram.jpg)
 Figure 1: Azure Lab Diagram
-A high-level overview of the lab architecture including the honeypot VM, Log Analytics Workspace, and Microsoft Sentinel.
+Visual summary of the honeypot lab setup, showing key Azure components and data flow to Microsoft Sentinel.
 
 ---
 
@@ -30,15 +30,18 @@ Created a new **resource group**, virtual network, and set up the Azure dashboar
 
 [![Azure Dashboard](./images/2_Fresh_dashboard.png)](./images/2_Fresh_dashboard.png)  
 Figure 2: Azure Dashboard View
-Fresh Azure portal showing a clean environment with a newly created resource group and virtual network.
+Clean Azure portal layout showing the environment before resources are deployed.
+
 
 [![Resource Group](./images/3_Created_resource_group.png)](./images/3_Created_resource_group.png)  
 Figure 3: Resource Group Creation
-Confirmation screen showing the successful creation of the RG_SOC_Lab resource group.
+Screenshot confirming successful creation of RG_SOC_Lab for organizing Azure lab resources.
+
 
 [![Virtual Network](./images/4_Vnet_deployed.png)](./images/4_Vnet_deployed.png)
 Figure 4: Virtual Network Setup
-Screenshot of the virtual network configuration used to support the honeypot infrastructure.
+Configuration view of the virtual network supporting the honeypot infrastructure.
+
 
 ---
 
@@ -47,9 +50,20 @@ Screenshot of the virtual network configuration used to support the honeypot inf
 Created a Windows VM with a finance-sounding name `FIN-SQL-02` and allowed **all inbound traffic** via the NSG. Disabled the Windows firewall.
 
 [![WindowsVM](./images/5_WindowsVM_created.png)](./images/5_WindowsVM_created.png) 
+Figure 5: Windows VM Created
+Deployment interface showing the newly created Windows honeypot VM named FIN-SQL-02.
+
 
 [![VM deployed](./images/6_VM_deployed.png)](./images/6_VM_deployed.png)
+Figure 6: VM Deployed Confirmation
+Final screen confirming successful deployment of the Windows honeypot VM.
+
+
 [![NSG Firewall](./images/6_NSG_firewall.png)](./images/6_NSG_firewall.png) 
+Figure 7: NSG Firewall Rule Opened
+NSG rule configured to allow all inbound traffic, mimicking an exposed server for honeypot testing.
+
+
 [![Remote In](./images/8_Remote_in_desktop.png)](./images/8_Remote_in_desktop.png)  
 [![Firewall Off](./images/9_WindowsVM_firewall_off.png)](./images/9_WindowsVM_firewall_off.png)
 [![Ping test](./images/10_Pingtest_to_VM.png)](./images/10_Pingtest_to_VM.png)
