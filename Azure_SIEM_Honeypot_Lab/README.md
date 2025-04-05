@@ -92,8 +92,8 @@ SecurityEvent
 
 Created a **Sentinel Workbook** and global **heatmap** for login attempts.
 
-[![Heatmap](./images/27_Heatmap_after_24hrs.png)](./images/27_Heatmap_after_24hrs.png)  
-[![GeoMap](./images/29_GeoMap_top_country_attacks.png)](./images/29_GeoMap_top_country_attacks.png)
+[![Heatmap](./images/27_HeatMap_after_24hrs.png)](./images/27_HeatMap_after_24hrs.png)  
+[![GeoMap](./images/28_Query_top_country_attacks.png)](./images/28_Query_top_country_attacks.png)
 
 ---
 
