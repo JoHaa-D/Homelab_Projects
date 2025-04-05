@@ -73,8 +73,8 @@ Created a **Log Analytics Workspace**, connected **Microsoft Sentinel**, and ins
 
 Uploaded `geoip-summarized.csv` as a **Watchlist** and used the `ipv4_lookup()` function in KQL to identify geographic sources of attacks.
 
-[![GeoIP Upload](./images/25_GeoIP_data_upload_success.png)](./images/25_GeoIP_data_upload_success.png)  
-[![Watchlist Upload](./images/24_Sentinel_watchlist_geoipdata.png)](./images/24_Sentinel_watchlist_geoipdata.png)
+[![Watchlist Upload](./images/24_Sentinel_watchlist_geodata.png)](./images/24_Sentinel_watchlist_geodata.png)
+[![GeoIP Upload](./images/26_GeoIP_data_upload_success.png)](./images/26_GeoIP_data_upload_success.png)  
 
 ```kql
 let GeoIPDB_FULL = _GetWatchlist("geoip");
