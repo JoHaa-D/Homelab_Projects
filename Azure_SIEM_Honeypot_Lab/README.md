@@ -17,6 +17,8 @@ This project documents the planning and deployment of a **Windows honeypot in Mi
 - Global heatmap + dashboard in Sentinel
 
 [![Lab Diagram](./images/1_Azure_Honeypot_Lab_Diagram.jpg)](./images/1_Azure_Honeypot_Lab_Diagram.jpg)
+Figure 1: Azure Lab Diagram
+A high-level overview of the lab architecture including the honeypot VM, Log Analytics Workspace, and Microsoft Sentinel.
 
 ---
 
