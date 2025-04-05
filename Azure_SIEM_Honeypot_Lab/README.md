@@ -35,7 +35,7 @@ Clean Azure portal layout showing the environment before resources are deployed.
 
 [![Resource Group](./images/3_Created_resource_group.png)](./images/3_Created_resource_group.png)  
 _Figure 3: Resource Group Creation
-Screenshot confirming successful creation of RG_SOC_Lab for organizing Azure lab resources._
+Screenshot confirming successful creation of **RG_SOC_Lab** for organizing Azure lab resources._
 
 
 [![Virtual Network](./images/4_Vnet_deployed.png)](./images/4_Vnet_deployed.png)
@@ -88,7 +88,7 @@ Failed RDP login attempt using incorrect credentials to simulate brute-force log
 
 [![Login Fail Alerts](./images/12_VM_longin_test_fail_results.png)](./images/12_VM_longin_test_fail_results.png)
 _Figure 12: Failed Login Result in Event Viewer
-Event Viewer showing Event ID 4625—failed login attempt detected and logged._
+Event Viewer showing **Event ID 4625**—failed login attempt detected and logged._
 
 ---
 
