@@ -59,8 +59,8 @@ Used RDP to intentionally fail logins. Event Viewer immediately showed Event ID 
 Created a **Log Analytics Workspace**, connected **Microsoft Sentinel**, and installed the **Azure Monitor Agent**.
 
 [![Log Analytics Workspace](./images/13_Workspace_created.png)](./images/13_Workspace_created.png)  
-[![Sentinel Workspace](./images/14_MAS_Sentinel_WS.png)](./images/14_MAS_Sentinel_WS.png)  
-[![Sentinel Landing](./images/16_SentinelLandingpage.png)](./images/16_SentinelLandingpage.png)  
+[![Sentinel Workspace](./images/14_Log_analytics_WS_created.png)](./images/14_Log_analytics_WS_created.png)  
+[![Sentinel Landing](./images/16_Sentinel_landingpage.png)](./images/16_Sentinel_landingpage.png)  
 [![Launch Windows Security Events](./images/17_Windows_security_events.png)](./images/17_Windows_security_events.png)
 [![Connected Security Evnents](./images/18_Connected_security_events_to_monitor_agent.png)](./images/18_Connected_security_events_to_monitor_agent.png)
 [![Monitor Agent](./images/19_Monitor_agent_deployed.png)](./images/19_Monitor_agent_deployed.png)
