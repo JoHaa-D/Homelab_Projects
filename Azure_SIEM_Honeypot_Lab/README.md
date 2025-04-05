@@ -16,7 +16,7 @@ This project documents the planning and deployment of a **Windows honeypot in Mi
 - Watchlist-based GeoIP lookups
 - Global heatmap + dashboard in Sentinel
 
-[![Lab Diagram](./images/1_Azure_Honeypot_Lab_Diagram.jpg)](./images/1_ProjectTo_VM.png)
+[![Lab Diagram](./images/1_Azure_Honeypot_Lab_Diagram.jpg)](./images/1_Azure_Honeypot_Lab_Diagram.jpg)
 
 ---
 
@@ -26,7 +26,7 @@ This project documents the planning and deployment of a **Windows honeypot in Mi
 
 Created a new **resource group**, virtual network, and set up the Azure dashboard.
 
-[![Azure Dashboard](./images/2_VM_login_test_failing.png)](./images/2_VM_login_test_failing.png)  
+[![Azure Dashboard](./images/2_Fresh_dashboard.png)](./images/2_Fresh_dashboard.png)  
 [![Resource Group](./images/3_VM_login_test_fail_results.png)](./images/3_VM_login_test_fail_results.png)  
 [![Virtual Network](./images/4_Log_analytics_WS_created.png)](./images/4_Log_analytics_WS_created.png)
 
