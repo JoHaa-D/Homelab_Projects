@@ -35,7 +35,7 @@ Clean Azure portal layout showing the environment before resources are deployed.
 
 [![Resource Group](./images/3_Created_resource_group.png)](./images/3_Created_resource_group.png)  
 _Figure 3: Resource Group Creation
-Screenshot confirming successful creation of **RG_SOC_Lab** for organizing Azure lab resources._
+Screenshot confirming the successful creation of **RG_SOC_Lab** (later migrated to another zone) for organizing Azure lab resources._
 
 
 [![Virtual Network](./images/4_Vnet_deployed.png)](./images/4_Vnet_deployed.png)
