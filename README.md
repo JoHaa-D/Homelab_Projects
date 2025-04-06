@@ -11,6 +11,7 @@ Hello, and welcome to my home lab repository! This is where I document my past a
 - **Home Assistant Setup** with Raspberry Pi and Fire tablet (wall mounted) for dashboard access.
 - **Ad Blocking** Pi-hole - DNS Sinkhole
 - **Vulnerability Scanning Lab** OpenVAS, Nessus Essentials, Nmap
+- **Malware Analysis** Detection, static analysis, sandboxing, reverse engineering. 
 - **Active Directory Lab** Windows Server VM
 - **Red team / Blue team** (Hack the Box, Capture the Flag events, Try Hack Me, malware analysis)
 
