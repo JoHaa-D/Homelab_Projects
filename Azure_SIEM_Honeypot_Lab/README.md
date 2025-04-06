@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project documents the planning and deployment of a **Windows honeypot in Microsoft Azure**, with centralized log forwarding to **Microsoft Sentinel**. The goal was to simulate malicious login attempts and visualize them using **KQL**, **GeoIP enrichment**, and **Sentinel workbooks**.
+The purpose of this lab was to simulate a honeypot deployment in **Microsoft Azure**, forward logs to a centralized SIEM (**Microsoft Sentinel**), and analyze the log data with **KQL** to identify malicious login attempts. This was an enjoyable hands-on opportunity to work with Azure resources, practice KQL querying, and gain insight into how attackers probe exposed systems in real-time.
 
 ---
 
