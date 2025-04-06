@@ -1,6 +1,6 @@
 # Azure Honeypot + SIEM Lab
 
-[![View Report](https://img.shields.io/badge/PDF_Report-View-blue?logo=adobeacrobatreader&style=for-the-badge)](./Azure_Honeypot_SIEM_Lab_Report.pdf)
+[![View Report](https://img.shields.io/badge/PDF_Report-View-blue?logo=adobeacrobatreader&style=for-the-badge)](./Azure_SIEM_Honeypot_Lab_Report.pdf)
 
 ## Overview
 
@@ -247,4 +247,4 @@ This lab was a deep-dive into:
 
 It provided practical blue team experience and reaffirmed the importance of log centralization and global attack visibility.
 
-[![View Report](https://img.shields.io/badge/PDF_Report-View-blue?logo=adobeacrobatreader&style=for-the-badge)](./Azure_Honeypot_SIEM_Lab_Report.pdf)
+[![View Report](https://img.shields.io/badge/PDF_Report-View-blue?logo=adobeacrobatreader&style=for-the-badge)](./Azure_SIEM_Honeypot_Lab_Report.pdf)
